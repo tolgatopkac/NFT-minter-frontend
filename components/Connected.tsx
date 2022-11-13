@@ -16,7 +16,7 @@ const Connected: FC = () => {
       <Container>
         <VStack spacing={8}>
           <Heading
-            color="white"
+            color="#000"
             as="h1"
             size="2xl"
             noOfLines={1}
@@ -25,7 +25,7 @@ const Connected: FC = () => {
             Welcome Buildoor.
           </Heading>
 
-          <Text color="bodyText" fontSize="xl" textAlign="center">
+          <Text color="#000" fontSize="xl" textAlign="center">
             Each buildoor is randomly generated and can be staked to receive
             <Text as="b"> $BLD</Text> Use your <Text as="b"> $BLD</Text> to
             upgrade your buildoor and receive perks within the community!

@@ -13,7 +13,7 @@ const Home: NextPage = () => {
   return (
     <div className={styles.container}>
       <Head>
-        <title>Buildoors</title>
+        <title>NFT Minter Frontend</title>
         <meta name="The NFT Collection for Buildoors" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
@@ -22,7 +22,7 @@ const Home: NextPage = () => {
         w="full"
         h="calc(100vh)"
         bgImage={connected ? "" : "url(/home-background.svg)"}
-        bgColor={connected ? "#1F1F1F" : ""}
+        bgColor={connected ? "#f8e6ca" : ""}
         backgroundPosition="center"
       >
         <Stack w="full" h="calc(100vh)" justify="center">
